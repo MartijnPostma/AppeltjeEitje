@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Persoon>
+<h1>Inschrijvingen</h1>
+
+<table class="table table-striped">
+    <tr>
+        <th>Voornaam</th>
+        <th>Achternaam</th>
+        <th>Geboortedatum</th>
+        <th>Emailadres</th>
+        <th>Telefoonnummer</th>
+        <th>Inschrijfdatum</th>
+        <th>Notities</th>
+    </tr>
+    @foreach (var persoon in Model)
+    {
+        <tr>
+            <td>@persoon.Voornaam</td>
+            <td>@persoon.Achternaam</td>
+            <td>@persoon.GeboorteDatum</td>
+            <td>@persoon.Emailadres</td>
+            <td>@persoon.Telefoonnummer</td>
+            <td>@persoon.Inschrijfdatum</td>
+            <td>@persoon.Notities</td>
+        </tr>
+    }
+</table>
+
+<p>Aantal inschrijvingen: @Model.Count()</p>

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Groep>
+<h1>Groepen</h1>
+<p>Totaal: @Model.Count()</p>
+<table>
+    @foreach (var groep in Model)
+    {
+        <tr>
+            <th>@groep.Naam</th>
+        </tr>
+        foreach (var persoon in groep.Personen)
+        {
+        <tr>
+            <td>persoon.Voornaam</td>
+            <td>persoon.Achternaam</td>
+            <td>persoon.Notities</td>
+        </tr>
+        }
+    }
+</table>

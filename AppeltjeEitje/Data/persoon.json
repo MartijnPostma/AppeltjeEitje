@@ -1,0 +1,42 @@
+[
+  {
+    //"Id": "000001",
+    "Voornaam": "Lindy",
+    "Achternaam": "Prins",
+    "Geboortedatum": "1990-02-15T00:00:00",
+    "Inschrijfdatum": "2018-09-01T00:00:00",
+    "Emailadres": "lindy.prins@gmail.com",
+    "Telefoonnummer": "0612345678",
+    "Notities": "Ziet er erg leuk uit.. Maakt niet uit of ze kan zwemmen."
+  },
+  {
+    //"Id": "000002",
+    "Voornaam": "Martijn",
+    "Achternaam": "Postma",
+    "Geboortedatum": "1990-05-05T00:00:00",
+    "Inschrijfdatum": "2018-09-02T00:00:00",
+    "Emailadres": "martijn.postma@gmail.com",
+    "Telefoonnummer": "0613579135",
+    "Notities": "Geen idee of hij kan zwemmen"
+  },
+  {
+    //"Id": "000003",
+    "Voornaam": "Dennis",
+    "Achternaam": "Zuidam",
+    "Geboortedatum": "1988-12-30T00:00:00",
+    "Inschrijfdatum": "2017-12-12T00:00:00",
+    "Emailadres": "dennis.zuidam@outlook.com",
+    "Telefoonnummer": "0611109466",
+    "Notities": "Best. Swimmer. Ever."
+  },
+  {
+    //"Id": "000004",
+    "Voornaam": "Edwin",
+    "Achternaam": "Rienstra",
+    "Geboortedatum": "1950-01-01T00:00:00",
+    "Inschrijfdatum": "2016-05-05T00:00:00",
+    "Emailadres": "edwin.rienstra@gmail.com",
+    "Telefoonnummer": "0611122333",
+    "Notities": "Nooit te out om te leren"
+  }
+]

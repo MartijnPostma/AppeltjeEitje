@@ -1,0 +1,23 @@
+﻿@model ContactViewModel
+
+<div class="col-md-6 offset-md-3">
+    <div class="card card-body bg-light">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly"></div>
+            <label asp-for="Naam">Naam</label>
+            <br />
+            <input asp-for="Naam" />
+            <br />
+            <label asp-for="Emailadres">Emailadres</label>
+            <br />
+            <input asp-for="Emailadres" type="email" />
+            <br />
+            <label asp-for="Bericht">Bericht</label>
+            <br />
+            <textarea asp-for="Bericht" rows="4"></textarea>
+            <br />
+            <button type="submit">Submit</button>
+            <div>@ViewBag.UserMessage</div>
+        </form>
+    </div>
+</div>

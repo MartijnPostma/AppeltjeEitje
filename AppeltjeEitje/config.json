@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "AppelEiConnectionString": "server=(localdb)\\MSSqlLocalDB;Database=AppelEiDb;Integrated Security=True;MultipleActiveResultSets=true;"
+  }
+}
